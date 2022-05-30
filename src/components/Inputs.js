@@ -2,7 +2,10 @@ const Forms = () => {
   return (
     <div className="flex items-center justify-evenly md:justify-around">
       <div className="">
-        <label className="block text-xs  font-black md:text-base" for="email">
+        <label
+          className="block text-xs  font-black md:text-base"
+          htmlFor="email"
+        >
           {" "}
           Top Meme{" "}
         </label>
@@ -15,7 +18,10 @@ const Forms = () => {
       </div>
       {/* input */}
       <div className="">
-        <label className="block text-xs font-black  md:text-base" for="email">
+        <label
+          className="block text-xs font-black  md:text-base"
+          htmlFor="email"
+        >
           {" "}
           Bottom Meme{" "}
         </label>
