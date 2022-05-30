@@ -16,11 +16,11 @@ header {
 }
 
 .meme-btn {
-  transition: all 5s ease-in;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
 
 .meme-btn:hover {
+  transition: all 5s ease-in;
   background: linear-gradient(90deg, #a626d3 1.18%, #672280 100%);
 }
 
