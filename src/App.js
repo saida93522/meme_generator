@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Inputs from "./components/Inputs";
+import Button from "./components/Button";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main className="pt-6 h-screen bg-white p-2 max-w-lg md:max-w-4xl mx-auto">
         <Inputs />
+        <Button />
       </main>
     </div>
   );
